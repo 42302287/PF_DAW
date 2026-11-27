@@ -111,6 +111,87 @@
         </div>
     </header>
 <main>
+    <!-- Panel de búsqueda -->
+        <div class="container" id="cuadro-de-busqueda">
+
+            <form name="formBusqueda" id="formBusqueda" role="search">
+
+                <div class="mb-3">
+
+                    <label for="cadenaBusqueda" class="form-label">
+                        Buscar Por:
+                    </label>
+
+                    <input type="text"
+                           class="form-control"
+                           id="cadenaBusqueda"
+                           name="cadenaBusqueda"
+                           required>
+
+                    <!-- Mensaje de búsqueda -->
+                    <p id="errorBusqueda" class="text-danger small mb-0" aria-live="polite"></p>
+
+                </div>
+
+                <!-- Opciones de búsqueda -->
+
+                <div class="form-check">
+                    <input class="form-check-input"
+                           type="radio"
+                           name="criterio"
+                           id="radioTitulo"
+                           value="q"
+                           checked>
+
+                    <label class="form-check-label" for="radioTitulo">
+                        Título
+                    </label>
+                </div>
+
+                <div class="form-check">
+                    <input class="form-check-input"
+                           type="radio"
+                           name="criterio"
+                           id="radioPintura"
+                           value="tipo">
+
+                    <label class="form-check-label" for="radioPintura">
+                        Pintura
+                    </label>
+                </div>
+
+                <div class="form-check">
+                    <input class="form-check-input"
+                           type="radio"
+                           name="criterio"
+                           id="radioAnio"
+                           value="anio">
+
+                    <label class="form-check-label" for="radioAnio">
+                        Año
+                    </label>
+                </div>
+
+                <div class="form-check">
+                    <input class="form-check-input"
+                           type="radio"
+                           name="criterio"
+                           id="radioMovimiento"
+                           value="m">
+
+                    <label class="form-check-label" for="radioMovimiento">
+                        Movimiento
+                    </label>
+                </div>
+
+                <button type="submit" class="btn btn-primary mt-3">
+                    Buscar
+                </button>
+
+            </form>
+
+        </div>
+
      <!-- Colección inicial de obras -->
         <section id="coleccion" class="container my-5">
 
