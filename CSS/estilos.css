@@ -1,0 +1,83 @@
+
+/* BARRA DE NAVEGACIÓN */
+
+/* Enlaces blancos y sin subrayado */
+.navbar .nav-link,
+.navbar .navbar-brand {
+    color: white;
+    text-decoration: none;
+}
+
+/* Subrayar los enlaces al pasar el cursor */
+.navbar .nav-link:hover,
+.navbar .navbar-brand:hover {
+    color: white;
+    text-decoration: underline;
+}
+
+/* Nombre de la página en mayúsculas */
+.navbar .navbar-brand {
+    text-transform: uppercase;
+}
+
+/* Botón del menú responsivo */
+.navbar .navbar-toggler {
+    background: white;
+    border-color: white;
+}
+
+
+/* FONDO DE LA PÁGINA */
+
+body {
+    background: #FBF5EE;
+}
+
+/* Margen del contenido principal */
+main {
+    margin: 10px;
+}
+
+
+/* PANEL DE BÚSQUEDA*/
+
+#cuadro-de-busqueda {
+    padding: 15px;
+    background-color: #D6CCC0;
+    border-radius: 10px;
+}
+
+
+/*TARJETAS DE LA COLECCIÓN */
+
+/* Tamaño de los títulos de las tarjetas */
+.card h3 {
+    font-size: 18px;
+}
+
+
+/* RESULTADOS DE BÚSQUEDA*/
+
+/* Diseño de las fichas de las obras */
+.obra-resultado {
+    background-color: white;
+    border: 1px solid #ccc;
+    padding: 15px;
+}
+
+
+/* PIE DE PÁGINA */
+
+#footer {
+    width: 100%;
+    background-color: #1E3C2A;
+    padding: 25px;
+    text-align: left;
+    color: white;
+}
+
+/* Texto del pie de página */
+#footer p {
+    font-size: 25px;
+    font-weight: bold;
+}
